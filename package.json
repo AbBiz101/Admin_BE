@@ -1,0 +1,33 @@
+{
+	"name": "admin_be",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://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@github.com/AbBiz101/Admin_BE.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AbBiz101/Admin_BE/issues"
+	},
+	"homepage": "https://github.com/AbBiz101/Admin_BE#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"country-iso-2-to-3": "^1.1.0",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"helmet": "^6.0.1",
+		"mongoose": "^6.9.2",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.20"
+	}
+}
